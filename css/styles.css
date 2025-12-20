@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Gilroy", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1180px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/*-------------------- HEADER --------------------*/
+
+.header {
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  gap: 203px;
+}
+
+.header-logo {
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-list-items {
+}
+
+.header-list-link {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #0c0c0c;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.header-address {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.header-address-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-address-items {
+}
+
+.header-address-link {
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-------------------- HERO --------------------*/
+
+#Hero {
+  padding-top: 80px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.hero-content-list {
+  margin-left: auto;
+}
+
+.hero-content-title {
+}
+
+.hero-heading {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.875;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  max-width: 597px;
+  margin-bottom: 20px;
+}
+
+.hero-accent {
+  color: #3350e9;
+}
+
+.hero-text {
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  max-width: 480px;
+}
+
+.hero-list {
+  display: flex;
+  margin-bottom: 189px;
+}
+
+.hero-items {
+  margin-right: -16px;
+}
+
+.hero-link {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  margin-left: 44px;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: #3350e9;
+}
+
+.hero-img {
+}

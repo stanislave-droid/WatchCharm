@@ -4,49 +4,125 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=!, initial-scale=1.0" />
     <title>WatchCharm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Gilroy/stylesheet.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">watchcharm</a>
-        <ul>
-          <li><a href="#Hero">Home</a></li>
-          <li><a href="#AboutUs">About Us</a></li>
-          <li><a href="#Catalog">Catalog</a></li>
-          <li><a href="#Sale">Sale</a></li>
-          <li><a href="#Reviews">Reviews</a></li>
-          <li><a href="#Contact-us">Contact Us</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-          </li>
-          <li>
-            <a href="https://www.Instagram.com/" target="_blank">Instagram</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo">watchcharm</a>
+          <ul class="header-nav-list">
+            <li class="header-list-items">
+              <a href="#Hero" class="header-list-link">Home</a>
+            </li>
+            <li class="header-list-items">
+              <a href="#AboutUs" class="header-list-link">About Us</a>
+            </li>
+            <li class="header-list-items">
+              <a href="#Catalog" class="header-list-link">Catalog</a>
+            </li>
+            <li class="header-list-items">
+              <a href="#Sale" class="header-list-link">Sale</a>
+            </li>
+            <li class="header-list-items">
+              <a href="#Reviews" class="header-list-link">Reviews</a>
+            </li>
+            <li class="header-list-items">
+              <a href="#Contact-us" class="header-list-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-list">
+            <li class="header-address-items">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="header-address-link"
+                >f</a
+              >
+            </li>
+            <li class="header-address-items">
+              <a
+                href="https://www.Instagram.com/"
+                target="_blank"
+                class="header-address-link"
+                >I</a
+              >
+            </li>
+            <li class="header-address-items">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="header-address-link"
+                >y</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section id="Hero">
-        <h1>Welcome to our collection of premium watches</h1>
-        <p>
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <ul>
-          <li><img src="./images/Hero-girl-one.png" alt="Hero girl" /></li>
-          <li><img src="./images/Hero-boy.png" alt="Hero boy" /></li>
-          <li><img src="./images/Hero-girl-two.png" alt="Hero girl" /></li>
-        </ul>
-        <a href="">Scroll down</a>
-        <img src="./images/Hero.png" alt="clock" width="1150" height="500" />
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-content-title">
+              <h1 class="hero-heading">
+                Welcome to our <span class="hero-accent">collection</span> of
+                premium watches
+              </h1>
+              <p class="hero-text">
+                Our watches are not just timepieces, but also an expression of
+                your personality and lifestyle. From classic designs to modern
+                ones, we have a watch to suit every taste and occasion.
+              </p>
+            </div>
+            <div class="hero-content-list">
+              <ul class="hero-list">
+                <li class="hero-items">
+                  <img
+                    src="./images/Hero-girl-one.png"
+                    alt="Hero girl"
+                    width="60"
+                    height="60"
+                  />
+                </li>
+                <li class="hero-items">
+                  <img
+                    src="./images/Hero-boy.png"
+                    alt="Hero boy"
+                    width="60"
+                    height="60"
+                  />
+                </li>
+                <li class="hero-items">
+                  <img
+                    src="./images/Hero-girl-two.png"
+                    alt="Hero girl"
+                    width="60"
+                    height="60"
+                  />
+                </li>
+              </ul>
+              <a href="" class="hero-link">Scroll down</a>
+            </div>
+          </div>
+          <img
+            src="./images/Hero.png"
+            alt="clock"
+            width="1150"
+            height="500"
+            class="hero-img"
+          />
+        </div>
       </section>
       <section id="AboutUs">
         <h2>About Us</h2>
