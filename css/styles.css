@@ -342,4 +342,136 @@ img {
 /*-------------------- Sale --------------------*/
 
 .sale-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 40px;
+}
+
+.sale-wrapper {
+  display: flex;
+}
+
+.sale-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.sale-items-background {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
+  background-color: #f3f3f3;
+}
+
+.sale-img-item {
+  padding: 16px 18px;
+}
+
+.sale-big-img {
+  padding: 80px 50px;
+  margin-right: 40px;
+}
+
+.sale-content-wrapper {
+  padding: 60px;
+  background-color: #3350e9;
+  border-radius: 50px;
+}
+
+.sale-content-headding {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.sale-content-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
+
+.sale-content-price-wrapper {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sale-content-new-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: rgba(251, 251, 251, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.sale-content-old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-content-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 40px;
+}
+
+.sale-content-proprties {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sale-content-proprtie {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 7px 11px;
+  background-color: transparent;
+}
+
+.sale-content-proprtie-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+  text-align: center;
+}
+
+/*-------------------- Reviews --------------------*/
+
+.reviews {
+  padding-top: 100px;
+}
+
+.reviews-list {
+}
+
+.reviews-items {
+}
+
+.reviews-title {
+}
+
+.reviews-text {
 }
