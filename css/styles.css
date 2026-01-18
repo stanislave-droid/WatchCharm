@@ -296,6 +296,8 @@ img {
     url(../images/advertisement-background.png),
     linear-gradient(#0c0c0c, #0c0c0c);
   border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .visually-hidden {
@@ -512,4 +514,11 @@ img {
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
+}
+
+/*-------------------- Contact us --------------------*/
+
+.Contact-us {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
