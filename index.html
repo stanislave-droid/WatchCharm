@@ -377,14 +377,59 @@
           </ul>
         </div>
       </section>
-      <section id="Contact-us" class="Contact-us">
+      <section id="Contact-us" class="contact-us">
         <div class="container">
-          <h2>Contact Us</h2>
-          <p>
-            Please use the form below to contact us. Enter your name, email,
-            phone, and message and we'll get back to you shortly.
-          </p>
-          <img src="./images/Contact-us.png" alt="" />
+          <h2 class="contact-us-headding">Contact Us</h2>
+          <div class="contact-us-wrapper">
+            <div class="contact-us-modal">
+              <p class="contact-us-text">
+                Please use the form below to contact us. Enter your name, email,
+                phone, and message and we'll get back to you shortly.
+              </p>
+              <form class="contact-us-form" name="contact-us-form">
+                <div class="contact-us-form-fields">
+                  <label
+                    ><input
+                      type="text"
+                      name="contact-us-name"
+                      class="contact-us-input contact-us-fields-fonts contact-us-fields-style"
+                      placeholder="Name"
+                  /></label>
+                  <label
+                    ><input
+                      type="email"
+                      name="contact-us-email"
+                      class="contact-us-input contact-us-fields-fonts contact-us-fields-style"
+                      placeholder="Email"
+                  /></label>
+                  <label
+                    ><input
+                      type="tel"
+                      name="contact-us-tel"
+                      class="contact-us-input contact-us-fields-fonts contact-us-fields-style"
+                      placeholder="+380"
+                  /></label>
+                  <label>
+                    <textarea
+                      name="contact-us-comment"
+                      class="contact-us-textarea contact-us-fields-fonts contact-us-fields-style"
+                      placeholder="Comment"
+                      rows="3"
+                    ></textarea>
+                  </label>
+                </div>
+                <button type="submit" class="contact-us-submit-btn">
+                  Send
+                </button>
+              </form>
+            </div>
+            <img
+              src="./images/Contact-us.png"
+              alt=""
+              width="530"
+              height="556"
+            />
+          </div>
         </div>
       </section>
     </main>
