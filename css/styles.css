@@ -292,6 +292,10 @@ img {
 #advertisement .container {
   display: flex;
   padding: 83px 80px;
+  background-image:
+    url(../images/advertisement-background.png),
+    linear-gradient(#0c0c0c, #0c0c0c);
+  border-radius: 30px;
 }
 
 .visually-hidden {
@@ -509,4 +513,3 @@ img {
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
 }
-
